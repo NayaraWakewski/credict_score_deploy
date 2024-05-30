@@ -3,7 +3,7 @@ from joblib import load
 import numpy as np
 
 # Carregar o modelo
-model = load('model.jbl')
+model = load('model_credit_deploy/model.jbl')
 
 # Personalização do Streamlit
 st.set_page_config(
